@@ -198,8 +198,8 @@ class AbstractChart extends Component {
           x2={width}
           y2={0}
         >
-          <Stop offset="0" stopColor={backgroundGradientFrom} />
-          <Stop offset="1" stopColor={backgroundGradientTo} />
+          <Stop offset="0" stopColor={backgroundGradientFrom} stopOpacity="0" />
+          <Stop offset="1" stopColor={backgroundGradientTo} stopOpacity="0" />
         </LinearGradient>
         <LinearGradient
           id="fillShadowGradient"
