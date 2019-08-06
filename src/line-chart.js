@@ -212,8 +212,6 @@ class LineChart extends AbstractChart {
   }
 
   render() {
-    const paddingTop = 16
-    const paddingRight = 64
     const {
       width,
       height,
@@ -235,6 +233,8 @@ class LineChart extends AbstractChart {
       height
     }
     const datas = this.getDatas(data.datasets)
+    const paddingTop = 16
+    const paddingRight = withVerticalLabels ? 64 : 0
     return (
       <View style={style}>
         <Svg height={height} width={width}>
