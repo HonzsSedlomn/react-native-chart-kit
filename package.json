@@ -34,7 +34,7 @@
     "prop-types": "> 15.6.0",
     "react": "> 16.7.0",
     "react-native": ">= 0.50.0",
-    "react-native-svg": "> 6.4.1"
+    "react-native-svg": "> 9.6.2"
   },
   "dependencies": {
     "lodash": "^4.17.11",
